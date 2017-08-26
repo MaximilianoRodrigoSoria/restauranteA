@@ -1,0 +1,932 @@
+2017-08-19 03:55:32 Error: Fatal Error (4): syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\miproyecto\app\Controller\BienvenidosController.php, line 9]
+2017-08-19 03:55:32 Error: [FatalErrorException] syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /miproyecto/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\miproyecto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 03:57:48 Error: Fatal Error (4): syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\miproyecto\app\Controller\BienvenidosController.php, line 9]
+2017-08-19 03:57:48 Error: [FatalErrorException] syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /miproyecto/Bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\miproyecto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 03:58:30 Error: Fatal Error (4): syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION) in [C:\xampp\htdocs\miproyecto\app\Controller\BienvenidosController.php, line 9]
+2017-08-19 03:58:30 Error: [FatalErrorException] syntax error, unexpected 'plublic' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /miproyecto/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\miproyecto\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\miproyecto\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 10:42:47 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\app\Config\bootstrap.php(114): CakePlugin::load('DebugKit')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\restaurante\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\restaurante\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2017-08-19 10:43:58 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /restaurante/
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 10:46:16 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /restaurante/
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 10:59:35 Error: Fatal Error (64): Cannot redeclare AppController::$components in [C:\xampp\htdocs\restaurante\app\Controller\AppController.php, line 36]
+2017-08-19 10:59:35 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:06:01 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 142]
+2017-08-19 11:06:01 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:08:17 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 142]
+2017-08-19 11:08:17 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:08:19 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 142]
+2017-08-19 11:08:19 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:08:19 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 142]
+2017-08-19 11:08:19 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:12:53 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 145]
+2017-08-19 11:12:53 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 145)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 145, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 145, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 11:14:10 Error: Fatal Error (1): Class 'DebugMemory' not found in [C:\xampp\htdocs\restaurante\plugins\DebugKit\Controller\Component\ToolbarComponent.php, line 142]
+2017-08-19 11:14:10 Error: [FatalErrorException] Class 'DebugMemory' not found
+Request URL: /restaurante/bienvenidos
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DebugMem...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 12:50:21 Error: Fatal Error (4): syntax error, unexpected 'funcion' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 11]
+2017-08-19 12:50:21 Error: [FatalErrorException] syntax error, unexpected 'funcion' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:01:14 Error: Fatal Error (64): Cannot redeclare class AppModesero in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 9]
+2017-08-19 13:01:14 Error: [FatalErrorException] Cannot redeclare class AppModesero
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:24:42 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 18]
+2017-08-19 13:24:42 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:41:07 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 14]
+2017-08-19 13:41:07 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:42:58 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 14]
+2017-08-19 13:42:58 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:43:49 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 14]
+2017-08-19 13:43:49 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:44:10 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 15]
+2017-08-19 13:44:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:44:11 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 15]
+2017-08-19 13:44:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:45:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 14]
+2017-08-19 13:45:56 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:48:12 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 14]
+2017-08-19 13:48:12 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:49:08 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 15]
+2017-08-19 13:49:08 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:49:42 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-19 13:50:12 Error: [MissingViewException] View file "C:\xampp\htdocs\restaurante\app\View\Meseros\ver.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\restaurante\\app\\View\\Meseros\\ver.ctp',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 13:51:20 Error: Fatal Error (4): syntax error, unexpected '.' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 17]
+2017-08-19 13:51:20 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /restaurante/meseros/
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:56:25 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 25]
+2017-08-19 13:56:25 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros/
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 13:57:18 Error: [MissingViewException] View file "C:\xampp\htdocs\restaurante\app\View\Meseros\ver.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\restaurante\\app\\View\\Meseros\\ver.ctp',
+)
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 14:00:52 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\restaurante\app\View\Meseros\ver.ctp, line 6]
+2017-08-19 14:00:52 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 14:20:31 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 31]
+2017-08-19 14:20:31 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 14:20:47 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 29]
+2017-08-19 14:20:47 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 14:21:10 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 31]
+2017-08-19 14:21:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 14:21:48 Error: Fatal Error (64): Non-abstract method MeserosController::nuevo() must contain body in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 27]
+2017-08-19 14:21:48 Error: [FatalErrorException] Non-abstract method MeserosController::nuevo() must contain body
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Non-abstract me...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(64, 'Non-abstract me...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Non-abstract me...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 14:57:44 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 18]
+2017-08-19 14:57:45 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:02:11 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 13]
+2017-08-19 15:02:11 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:03:06 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 13]
+2017-08-19 15:03:06 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:04:02 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 13]
+2017-08-19 15:04:02 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:06:04 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 8]
+2017-08-19 15:06:04 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:06:57 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 8]
+2017-08-19 15:06:57 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:06:58 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 8]
+2017-08-19 15:06:58 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:07:00 Error: Fatal Error (4): syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 8]
+2017-08-19 15:07:00 Error: [FatalErrorException] syntax error, unexpected '$MSG_NONUMERIO' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:08:25 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 26]
+2017-08-19 15:08:25 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /restaurante/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:33:13 Error: [MissingViewException] View file "C:\xampp\htdocs\restaurante\app\View\Meseros\editar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\restaurante\\app\\View\\Meseros\\editar.ctp',
+)
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 15:56:33 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 53]
+2017-08-19 15:56:33 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 53, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 53, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 15:57:06 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 51]
+2017-08-19 15:57:06 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:05:04 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:05:04 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:05:24 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:05:24 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:05:26 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:05:26 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:05:27 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:05:27 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:06:05 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:06:05 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:06:30 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:06:30 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:07:11 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 58]
+2017-08-19 16:07:11 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:08:47 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 60]
+2017-08-19 16:08:47 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:09:02 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 60]
+2017-08-19 16:09:02 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 60, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:19:38 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:19:38 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:23:09 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:23:09 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:24:30 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:24:30 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:24:37 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:24:37 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:24:37 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:24:37 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:25:56 Error: [MissingActionException] Action MeserosController::crear() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'crear',
+)
+Request URL: /restaurante/meseros/crear/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-19 16:26:54 Error: Fatal Error (1): Call to undefined method MeserosController::request() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 47]
+2017-08-19 16:26:54 Error: [FatalErrorException] Call to undefined method MeserosController::request()
+Request URL: /restaurante/meseros/editar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:51:58 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 15]
+2017-08-19 16:51:58 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /restaurante/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 16:52:05 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 15]
+2017-08-19 16:52:05 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:11:55 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\ver.ctp, line 13]
+2017-08-19 17:11:55 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /restaurante/meseros/ver/6
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:12:20 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\ver.ctp, line 13]
+2017-08-19 17:12:20 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /restaurante/meseros/ver/6
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:20:23 Error: Fatal Error (64): Cannot redeclare MeserosController::editar() in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 61]
+2017-08-19 17:20:23 Error: [FatalErrorException] Cannot redeclare MeserosController::editar()
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:20:35 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 72]
+2017-08-19 17:20:35 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:25:26 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 63]
+2017-08-19 17:25:26 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:28:37 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:28:37 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:28:55 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:28:55 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:28:56 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:28:56 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:29:45 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 72]
+2017-08-19 17:29:45 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:30:37 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:30:37 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:30:56 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:30:56 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:30:57 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:30:57 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:31:15 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\xampp\htdocs\restaurante\app\Controller\MeserosController.php, line 74]
+2017-08-19 17:31:15 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:33:03 Error: [MissingActionException] Action MeserosController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'borrar',
+)
+Request URL: /restaurante/meseros/borrar/1
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-08-19 17:33:28 Error: [MethodNotAllowedException] Detalles invalidos!!!
+Request URL: /restaurante/meseros/eliminar/9
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('9')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 17:34:06 Error: [MethodNotAllowedException] Detalles invalidos!!!
+Request URL: /restaurante/meseros/eliminar/9
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('9')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 17:34:14 Error: [MethodNotAllowedException] Detalles invalidos!!!
+Request URL: /restaurante/meseros/eliminar/8
+Stack Trace:
+#0 [internal function]: MeserosController->eliminar('8')
+#1 C:\xampp\htdocs\restaurante\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MeserosController), Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\restaurante\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-08-19 17:52:50 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:52:50 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:56:41 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:56:41 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:59:03 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:59:03 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:59:16 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:59:16 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:59:17 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:59:17 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 17:59:18 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 17:59:18 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 18:12:49 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 26]
+2017-08-19 18:12:49 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 18:12:50 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 26]
+2017-08-19 18:12:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 18:13:07 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 26]
+2017-08-19 18:13:07 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 18:25:36 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\xampp\htdocs\restaurante\app\View\Meseros\index.ctp, line 25]
+2017-08-19 18:25:36 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-08-19 19:46:21 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\restaurante\app\Model\Mesero.php, line 34]
+2017-08-19 19:46:21 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /restaurante/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\restaurante\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\restaurante\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
